@@ -6,39 +6,33 @@ The project analyzes "Sabores del Mundo" restaurant data to identify popular and
 This SQL exercise is based on a fictional restaurant called "Sabores del Mundo", which launched a new menu and collected data on customer orders. The goal is to analyze this data using SQL to find out which menu items are most and least popular. The tasks include exploring two tables (menu_items and order_details), answering specific questions about prices and orders, joining the tables to combine insights, and finally creating custom queries to identify five useful recommendations for improving the menu.
 
 ## DATASET DESCRIPTION
-This dataset contains detailed information about transactions recorded at the "CityBlend" coffee shop across its different branches. 
-The data spans a period of six months, and each row represents a single transaction. The dataset includes the following variables:
 
 
 **Column Name**	      |**Description**
 
-1. menu_items Table
+### **1. menu_items Table**
 Contains information about the items available on the restaurant's menu.
 
-Columns :
+  **menu_item_id**  | Unique ID for each menu item.
 
-  menu_item_id  | Unique ID for each menu item.
+  **item_name**     | Name of the dish.
 
-  item_name     | Name of the dish.
+  **category**      | Type of dish (e.g., American, Italian, etc.).
 
-  category      | Type of dish (e.g., American, Italian, etc.).
+  **price**         | Cost of the item.
 
-  price         | Cost of the item.
-
-2. order_details Table
+### **2. order_details Table**
 Stores records of customer orders, showing which items were ordered and when.
 
-Columns:
+  **order_details_id**    | Unique ID for an item in an order.
 
-  order_details_id    | Unique ID for an item in an order.
+  **order_id**            | Unique ID for each customer order.
 
-  order_id            | Unique ID for each customer order.
+  **item_id**             | Refers to the menu_item_id in the menu_items table.
 
-  item_id             | Refers to the menu_item_id in the menu_items table.
+  **order_date**          | Date when the order was placed.
 
-  order_date          | Date when the order was placed.
-
-  order_time          | Time when the order was placed.
+  **order_time**          | Time when the order was placed.
 
 ## RESULTS
 1. Top 5 most ordered products
