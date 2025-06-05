@@ -41,16 +41,20 @@ Columns:
   order_time          | Time when the order was placed.
 
 ## RESULTS
-1. Top 5 most ordered products 
+1. Top 5 most ordered products
+
 ![image](https://github.com/user-attachments/assets/11eb9510-2bc9-4f82-a47a-44b3a7684bdb)
 
 2. Menu products
+
 ![image](https://github.com/user-attachments/assets/3c8f8dc4-ab43-4ce6-9904-565dbcfaa96f)
 
 3. Most economic product on the menu
+
 ![image](https://github.com/user-attachments/assets/44c23696-1ced-4ca2-9a6e-a644181e5336)
 
 4. Most expensive product on the menu
+
 ![image](https://github.com/user-attachments/assets/7b3d4598-db16-4654-af03-32cd4e369009)
 
 
